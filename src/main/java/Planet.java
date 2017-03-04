@@ -6,7 +6,7 @@
 public class Planet {
 
     // todo: create a property named "name" that can hold a planet's name. EG: mercury
-
+    String name;
     /*
         A planet's distance from the sun is measured in Astronomical Units (AU).
         One AU is the distance from the Sun to Earth.
@@ -15,8 +15,13 @@ public class Planet {
      */
     // todo: create a property named "distanceFromSun" that holds a planet's distance from the sun in Astronomical Units.
 
+    double distanceFromSun;
+
     // todo: create a property "satellites" that holds the number of moons a planet has. EG: Mercury has 0 satellites
 
-    // todo: create a property "supportsLife" that indicates whether or not a planet supports life. EG: Mercury does not support life.
+    int satellites;
 
+
+    // todo: create a property "supportsLife" that indicates whether or not a planet supports life. EG: Mercury does not support life.
+    boolean supportsLife;
 }
